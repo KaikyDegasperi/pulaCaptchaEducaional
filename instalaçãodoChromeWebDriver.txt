@@ -1,0 +1,40 @@
+Instalar o ChromeDriver é um processo relativamente simples. Aqui está um guia passo a passo para instalar o ChromeDriver:
+
+Verifique a Versão do Google Chrome:
+Antes de começar, é importante verificar qual versão do Google Chrome você está usando, pois precisará do ChromeDriver compatível com essa versão.
+
+Baixe o ChromeDriver:
+
+Acesse o site oficial do ChromeDriver no seu navegador.
+Encontre a versão mais recente do ChromeDriver.
+Baixe a versão correta para o seu sistema operacional (Windows, Mac, Linux).
+Descompacte o Arquivo:
+
+Após o download, você terá um arquivo compactado (ZIP).
+Descompacte o arquivo para obter o executável do ChromeDriver.
+Mova o Executável para um Diretório Conhecido:
+
+Mova o arquivo executável do ChromeDriver para um diretório conhecido no seu sistema. Por exemplo, você pode movê-lo para a pasta /usr/local/bin (Linux) ou C:\Program Files (Windows).
+Adicione o Diretório ao PATH (Opcional, mas Recomendado):
+
+Para facilitar o acesso ao ChromeDriver de qualquer lugar no terminal ou prompt de comando, adicione o diretório que contém o executável ao PATH do seu sistema.
+
+No Windows:
+Adicione o caminho para o diretório do ChromeDriver ao caminho do sistema nas variáveis de ambiente. Isso pode ser feito nas configurações do sistema.
+
+No Linux/Mac:
+Abra o arquivo ~/.bashrc (ou ~/.zshrc se você estiver usando o Zsh) e adicione o seguinte:
+
+bash
+Copy code
+export PATH=$PATH:/caminho/para/diretorio/com/chromedriver
+Em seguida, recarregue o terminal ou execute source ~/.bashrc para aplicar as alterações.
+
+Teste o ChromeDriver:
+
+Abra um terminal ou prompt de comando e digite:
+bash
+Copy code
+chromedriver --version
+Isso deve exibir a versão do ChromeDriver, confirmando que a instalação foi bem-sucedida.
+Lembre-se de que é crucial manter o ChromeDriver atualizado para corresponder à versão do Google Chrome instalada no seu sistema. Caso contrário, podem ocorrer problemas de compatibilidade.

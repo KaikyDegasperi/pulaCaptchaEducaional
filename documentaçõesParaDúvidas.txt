@@ -1,0 +1,168 @@
+Script de Automação IBAMA SICAFIEXT com Selenium
+
+Requisitos:
+
+Python 3.x instalado.
+WebDriver do Chrome instalado.
+Bibliotecas Python: selenium.
+Configuração:
+
+Substitua "caminho/para/chromedriver" pelo caminho real do chromedriver.exe.
+Funcionalidades:
+
+Automação IBAMA SICAFIEXT:
+
+O script realiza a navegação em páginas do IBAMA SICAFIEXT, interagindo com diferentes elementos e preenchendo campos específicos.
+Uso do Selenium:
+
+Utiliza o Selenium para interações com o navegador, como clicar em botões, preencher campos e navegar entre iframes.
+Espera por Elementos:
+
+Emprega WebDriverWait para aguardar a presença de elementos antes de realizar interações. O tempo de espera pode ser ajustado conforme necessário.
+Instruções de Uso:
+
+Execute o script: python nome_do_script.py.
+O script abrirá um navegador, realizará a navegação nas páginas do IBAMA SICAFIEXT.
+Avisos:
+
+Certifique-se de cumprir os Termos de Serviço do site ao qual você está automatizando.
+Este script é fornecido apenas para fins educacionais e de demonstração.
+Observação: Este é um guia básico e pode ser complementado com detalhes específicos de cada página.
+
+Script de Automação TST Certidão com Selenium
+
+Requisitos:
+
+Python 3.x instalado.
+WebDriver do Chrome instalado.
+Bibliotecas Python: selenium.
+Configuração:
+
+Substitua "caminho/para/chromedriver" pelo caminho real do chromedriver.exe.
+Se necessário, ajuste a URL de acordo com o ambiente de execução.
+Funcionalidades:
+
+Automação Certidão TST:
+
+O script acessa a página do TST, clica em um botão específico ("Emitir Certidão") e realiza interações adicionais, como preenchimento de formulários.
+Uso do Selenium:
+
+Utiliza o Selenium para simular interações do usuário, como clicar em botões, preencher formulários e aguardar o carregamento de páginas.
+Espera por Elementos:
+
+Utiliza WebDriverWait para aguardar a presença de elementos antes de realizar interações, garantindo a estabilidade da automação.
+Modo Headless:
+
+Inclui opção para executar em modo headless (sem abrir a janela do navegador), útil para execução em segundo plano.
+Instruções de Uso:
+
+Execute o script: python nome_do_script.py.
+O script abrirá um navegador, acessará a página do TST e realizará as interações necessárias.
+Avisos:
+
+Este script é fornecido apenas para fins educacionais e de demonstração.
+Verifique e cumpra os Termos de Serviço do site ao qual você está automatizando.
+
+
+
+Script de Automação SICAFI/IBAMA com Selenium e AntiCaptcha
+
+Requisitos:
+
+Python 3.x instalado.
+WebDriver do Chrome instalado.
+Bibliotecas Python: selenium, antiCaptcha (pode ser instalada via pip).
+Configuração:
+
+Substitua "caminho/para/chromedriver" pelo caminho real do chromedriver.exe.
+Substitua 'chaveDaApi' pela chave API do AntiCaptcha.
+Ajuste as classes e IDs dos elementos conforme a estrutura HTML do site.
+Funcionalidades:
+
+Automação SICAFI/IBAMA:
+
+O script acessa a página do SICAFI/IBAMA, interage com elementos como iframes, realiza a quebra do captcha usando o AntiCaptcha e preenche os campos do formulário.
+Uso do AntiCaptcha:
+
+Utiliza a biblioteca antiCaptcha para resolver captchas automaticamente.
+Espera por Elementos:
+
+Utiliza WebDriverWait para aguardar a presença de elementos antes de realizar interações, garantindo a estabilidade da automação.
+Instruções de Uso:
+
+Execute o script: python nome_do_script.py.
+O script abrirá um navegador, acessará a página do SICAFI/IBAMA, realizará a quebra do captcha e preencherá os campos do formulário.
+Avisos:
+
+Certifique-se de cumprir os Termos de Serviço do site ao qual você está automatizando.
+Mantenha a chave do AntiCaptcha segura e não a compartilhe.
+
+
+
+Script de Automação Certidão de Embargos - Goiás com Selenium
+
+Requisitos:
+
+Python 3.x instalado.
+WebDriver do Chrome instalado.
+Bibliotecas Python: selenium.
+Configuração:
+
+Substitua "caminho/para/chromedriver" pelo caminho real do chromedriver.exe.
+Ajuste os seletores CSS e outros identificadores conforme a estrutura HTML do site.
+Funcionalidades:
+
+Acesso e Preenchimento do Formulário:
+
+O script acessa a página de certidão de embargos do estado de Goiás, preenchendo os campos do formulário com dados provenientes de um arquivo Excel.
+Iteração com o Excel:
+
+Utiliza a biblioteca pandas para ler dados de um arquivo Excel e iterar sobre eles.
+Instruções de Uso:
+
+Modifique o caminho para o arquivo Excel na variável caminho_excel.
+Execute o script: python nome_do_script.py.
+O script abrirá um navegador, preencherá o formulário com dados do Excel e realizará ações adicionais conforme necessário.
+Avisos:
+
+Certifique-se de cumprir os Termos de Serviço do site ao qual você está automatizando.
+
+
+
+
+Script de Automação Certidão do TST com Selenium
+
+Requisitos:
+
+Python 3.x instalado.
+WebDriver do Chrome instalado.
+Bibliotecas Python: selenium.
+Configuração:
+
+Substitua o URL pela página desejada.
+Ajuste os seletores CSS e outros identificadores conforme a estrutura HTML do site.
+Funcionalidades:
+
+Acesso a Página e Emissão de Certidão:
+
+O script acessa a página de certidão do TST, clica no botão "Emitir Certidão", e realiza interações adicionais se necessário.
+Manipulação de iFrames:
+
+Utiliza Selenium para manipular iFrames, como alternar para iFrames aninhados e realizar ações dentro deles.
+Esperas Explícitas:
+
+Usa WebDriverWait para aguardar elementos específicos ficarem disponíveis antes de interagir com eles.
+Instruções de Uso:
+
+Ajuste o URL para a página desejada.
+Execute o script: python nome_do_script.py.
+O script abrirá um navegador, realizará ações conforme a lógica definida e salvará o conteúdo da página se necessário.
+Avisos:
+
+Certifique-se de cumprir os Termos de Serviço do site ao qual você está automatizando.
+
+
+
+
+
+
